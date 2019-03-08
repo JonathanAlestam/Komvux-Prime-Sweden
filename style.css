@@ -1,0 +1,79 @@
+body {
+    background-image: url(images/water.jpg);
+    font-family: sans-serif;
+    margin: 0;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+}
+
+.splash-screen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/fog.jpg);
+    background-size: cover;
+}
+.splash-screen .cta {
+    padding: 22px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border-radius: 15px;
+}
+header {
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    margin: 30px 30px;
+}
+
+.content {
+    padding: 1em 4em;
+}
+
+.products .product-list {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.products .product-list .product {
+    margin: 1%;
+    height: 500px;
+    background-color: #fff;
+}
+
+.products .product-list .product .product-content {
+    padding: 2%;
+}
+
+.products .product-list .product img {
+    width: 100%;
+}
+
+.products .product-list .product .product-content h4 small {
+    font-size: 10px;
+}
+
+.products .product-list .product button {
+    display: block;
+    margin: 2% auto;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    outline: none;
+}
+
+.cart .cart-list {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.cart .cart-list .item h4,
+.cart .cart-list .item .close {
+    display: inline;
+}
